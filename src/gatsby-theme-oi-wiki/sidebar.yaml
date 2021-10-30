@@ -1,0 +1,460 @@
+- 简介:
+  - Getting Started: /
+  - 关于本项目: /intro/about
+  - 如何参与: /intro/htc
+  - 格式手册: /intro/format
+  - F.A.Q.: /intro/faq
+  - 用 Docker 部署 OI Wiki: /intro/docker-deploy
+  - 致谢: /intro/thanks
+- 比赛相关:
+  - 比赛相关简介: /contest/
+  - 赛事:
+    - OI 赛事与赛制: /contest/oi
+    - ICPC/CCPC 赛事与赛制: /contest/icpc
+  - 题型:
+    - 题型概述: /contest/problems
+    - 交互题: /contest/interaction
+  - 学习路线: /contest/roadmap
+  - 学习资源: /contest/resources
+  - 技巧:
+    - 读入、输出优化: /contest/io
+    - 常见错误: /contest/common-mistakes
+    - 常见技巧: /contest/common-tricks
+  - 出题相关:
+    - 出题: /contest/problemsetting
+- 工具软件:
+  - 工具软件简介: /tools/
+  - 代码编辑工具:
+    - Vim: /tools/editor/vim
+    - Emacs: /tools/editor/emacs
+    - VS Code: /tools/editor/vscode
+    - Atom: /tools/editor/atom
+    - Eclipse: /tools/editor/eclipse
+    - Notepad++: /tools/editor/npp
+    - Kate: /tools/editor/kate
+    - Dev-C++: /tools/editor/devcpp
+    - Geany: /tools/editor/geany
+    - Xcode: /tools/editor/xcode
+    - GUIDE: /tools/editor/guide
+    - Sublime Text: /tools/editor/sublime
+  - 评测工具:
+    - Arbiter: /tools/judger/arbiter
+    - Cena: /tools/judger/cena
+    - CCR Plus: /tools/judger/ccr-plus
+    - Lemon: /tools/judger/lemon
+  - 命令行: /tools/cmd
+  - WSL (Windows 10): /tools/wsl
+  - Special Judge: /tools/special-judge
+  - Testlib:
+    - Testlib 简介: /tools/testlib/
+    - 通用: /tools/testlib/general
+    - Generator: /tools/testlib/generator
+    - Validator: /tools/testlib/validator
+    - Interactor: /tools/testlib/interactor
+    - Checker: /tools/testlib/checker
+  - Polygon: /tools/polygon
+  - OJ 工具: /tools/oj-tool
+  - LaTeX 入门: /tools/latex
+  - Git: /tools/git
+- 语言基础:
+  - 语言基础简介: /lang/
+  - C++ 基础:
+    - Hello, World!: /lang/helloworld
+    - C++ 语法基础: /lang/basic
+    - 变量: /lang/var
+    - 运算: /lang/op
+    - 流程控制语句:
+      - 分支: /lang/branch
+      - 循环: /lang/loop
+    - 高级数据类型:
+      - 数组: /lang/array
+      - 结构体: /lang/struct
+      - 指针: /lang/pointer
+    - 函数: /lang/func
+    - 文件操作: /lang/file-op
+  - C++ 标准库:
+    - C++ 标准库简介: /lang/csl/
+    - STL 容器:
+      - STL 容器简介: /lang/csl/container
+      - 迭代器: /lang/csl/iterator
+      - 序列式容器: /lang/csl/sequence-container
+      - 关联式容器: /lang/csl/associative-container
+      - 无序关联式容器: /lang/csl/unordered-container
+      - 容器适配器: /lang/csl/container-adapter
+    - STL 算法: /lang/csl/algorithm
+    - bitset: /lang/csl/bitset
+    - string: /lang/csl/string
+    - pair: /lang/csl/pair
+  - C++ 进阶:
+    - 类: /lang/class
+    - 命名空间: /lang/namespace
+    - 值类别: /lang/value-category
+    - 重载运算符: /lang/op-overload
+    - 引用: /lang/reference
+    - 常值: /lang/const
+    - 新版 C++ 特性: /lang/new
+    - pb_ds:
+      - pb_ds 简介: /lang/pb-ds/
+      - 堆: /lang/pb-ds/pq
+      - 平衡树: /lang/pb-ds/tree
+  - C 与 C++ 区别: /lang/c-cpp
+  - Pascal 转 C++ 急救: /lang/pas-cpp
+  - Python 速成: /lang/python
+  - Java 速成: /lang/java
+- 算法基础:
+  - 算法基础简介: /basic/
+  - 复杂度: /basic/complexity
+  - 枚举: /basic/enumerate
+  - 模拟: /basic/simulate
+  - 递归 & 分治: /basic/divide-and-conquer
+  - 贪心: /basic/greedy
+  - 排序:
+    - 排序简介: /basic/sort-intro
+    - 选择排序: /basic/selection-sort
+    - 冒泡排序: /basic/bubble-sort
+    - 插入排序: /basic/insertion-sort
+    - 计数排序: /basic/counting-sort
+    - 基数排序: /basic/radix-sort
+    - 快速排序: /basic/quick-sort
+    - 归并排序: /basic/merge-sort
+    - 堆排序: /basic/heap-sort
+    - 桶排序: /basic/bucket-sort
+    - 希尔排序: /basic/shell-sort
+    - 锦标赛排序: /basic/tournament-sort
+    - 排序相关 STL: /basic/stl-sort
+    - 排序应用: /basic/use-of-sort
+  - 前缀和 & 差分: /basic/prefix-sum
+  - 二分: /basic/binary
+  - 倍增: /basic/binary-lifting
+  - 构造: /basic/construction
+- 搜索:
+  - 搜索部分简介: /search/
+  - DFS（搜索）: /search/dfs
+  - BFS（搜索）: /search/bfs
+  - 双向搜索: /search/bidirectional
+  - 启发式搜索: /search/heuristic
+  - A*: /search/astar
+  - 迭代加深搜索: /search/iterative
+  - IDA*: /search/idastar
+  - 回溯法: /search/backtracking
+  - Dancing Links: /search/dlx
+  - Alpha-Beta 剪枝: /search/alpha-beta
+  - 优化: /search/opt
+- 动态规划:
+  - 动态规划部分简介: /dp/
+  - 动态规划基础: /dp/basic
+  - 记忆化搜索: /dp/memo
+  - 背包 DP: /dp/knapsack
+  - 区间 DP: /dp/interval
+  - DAG 上的 DP: /dp/dag
+  - 树形 DP: /dp/tree
+  - 状压 DP: /dp/state
+  - 数位 DP: /dp/number
+  - 插头 DP: /dp/plug
+  - 计数 DP: /dp/count
+  - 动态 DP: /dp/dynamic
+  - 概率 DP: /dp/probability
+  - DP 优化:
+    - 单调队列/单调栈优化: /dp/opt/monotonous-queue-stack
+    - 斜率优化: /dp/opt/slope
+    - 四边形不等式优化: /dp/opt/quadrangle
+    - 状态设计优化: /dp/opt/state
+  - 其它 DP 方法: /dp/misc
+- 字符串:
+  - 字符串部分简介: /string/
+  - 字符串基础: /string/basic
+  - 标准库: /string/lib-func
+  - 字符串匹配: /string/match
+  - 字符串哈希: /string/hash
+  - 字典树 (Trie): /string/trie
+  - 前缀函数与 KMP 算法: /string/kmp
+  - Boyer-Moore算法: /string/bm
+  - Z 函数（扩展 KMP）: /string/z-func
+  - 自动机: /string/automaton
+  - AC 自动机: /string/ac-automaton
+  - 后缀数组 (SA):
+    - 后缀数组简介: /string/sa
+    - 最优原地后缀排序算法: /string/sa-optimal-inplace
+  - 后缀自动机 (SAM): /string/sam
+  - 后缀平衡树: /string/suffix-bst
+  - 广义后缀自动机: /string/general-sam
+  - 后缀树: /string/suffix-tree
+  - Manacher: /string/manacher
+  - 回文树: /string/pam
+  - 序列自动机: /string/seq-automaton
+  - 最小表示法: /string/minimal-string
+  - Lyndon 分解: /string/lyndon
+  - Main-Lorentz 算法: /string/main-lorentz
+- 数学:
+  - 数学部分简介: /math/
+  - 符号: /math/notation
+  - 复数: /math/complex
+  - 位运算: /math/bit
+  - 快速幂: /math/quick-pow
+  - 进位制: /math/base
+  - 高精度计算: /math/bignum
+  - 平衡三进制: /math/balanced-ternary
+  - 数论:
+    - 数论基础: /math/number-theory/basic
+    - 素数: /math/number-theory/prime
+    - 最大公约数: /math/number-theory/gcd
+    - 数论分块: /math/number-theory/sqrt-decomposition
+    - 欧拉函数: /math/number-theory/euler
+    - 筛法: /math/number-theory/sieve
+    - Meissel-Lehmer 算法: /math/number-theory/meissel-lehmer
+    - 分解质因数: /math/number-theory/pollard-rho
+    - 裴蜀定理: /math/number-theory/bezouts
+    - 类欧几里德算法: /math/number-theory/euclidean
+    - 欧拉定理 & 费马小定理: /math/number-theory/fermat
+    - 乘法逆元: /math/number-theory/inverse
+    - 线性同余方程: /math/number-theory/linear-equation
+    - 中国剩余定理: /math/number-theory/crt
+    - 威尔逊定理: /math/number-theory/wilson
+    - 升幂定理: /math/number-theory/lift-the-exponent
+    - 卢卡斯定理: /math/number-theory/lucas
+    - 二次剩余: /math/number-theory/quad-residue
+    - 拉格朗日定理: /math/number-theory/lagrange
+    - 原根: /math/number-theory/primitive-root
+    - BSGS: /math/number-theory/bsgs
+    - 莫比乌斯反演: /math/number-theory/mobius
+    - 杜教筛: /math/number-theory/du
+    - Powerful Number 筛: /math/number-theory/powerful-number
+    - Min_25 筛: /math/number-theory/min-25
+    - 洲阁筛: /math/number-theory/zhou
+    - 连分数: /math/number-theory/continued-fraction
+    - Stern-Brocot 树与 Farey 序列: /math/number-theory/stern-brocot
+    - Pell 方程: /math/number-theory/pell-equation
+  - 多项式:
+    - 多项式部分简介: /math/poly/intro
+    - 拉格朗日插值: /math/poly/lagrange
+    - 快速傅里叶变换: /math/poly/fft
+    - 快速数论变换: /math/poly/ntt
+    - 快速沃尔什变换: /math/poly/fwt
+    - Chirp Z 变换: /math/poly/czt
+    - 多项式求逆: /math/poly/inv
+    - 多项式开方: /math/poly/sqrt
+    - 多项式除法|取模: /math/poly/div-mod
+    - 多项式对数函数|指数函数: /math/poly/ln-exp
+    - 多项式牛顿迭代: /math/poly/newton
+    - 多项式多点求值|快速插值: /math/poly/multipoint-eval-interpolation
+    - 多项式三角函数: /math/poly/tri-func
+    - 多项式反三角函数: /math/poly/inv-tri-func
+    - 常系数齐次线性递推: /math/linear-recurrence
+    - 多项式平移|连续点值平移: /math/poly/shift
+  - 生成函数:
+    - 生成函数简介: /math/gen-func/intro
+    - 普通生成函数: /math/gen-func/ogf
+    - 指数生成函数: /math/gen-func/egf
+    - 狄利克雷生成函数: /math/gen-func/dgf
+  - 线性代数:
+    - 向量: /math/vector
+    - 矩阵: /math/matrix
+    - 高斯消元: /math/gauss
+    - 特征多项式: /math/char-poly
+    - 线性基: /math/basis
+  - 线性规划:
+    - 线性规划简介: /math/linear-programming
+    - 单纯形算法: /math/simplex
+  - 组合数学:
+    - 排列组合: /math/combinatorics/combination
+    - 卡特兰数: /math/combinatorics/catalan
+    - 斯特林数: /math/combinatorics/stirling
+    - 贝尔数: /math/combinatorics/bell
+    - 伯努利数: /math/combinatorics/bernoulli
+    - 康托展开: /math/combinatorics/cantor
+    - 容斥原理: /math/combinatorics/inclusion-exclusion-principle
+    - 抽屉原理: /math/combinatorics/drawer-principle
+    - Eulerian Number: /math/combinatorics/eulerian
+    - 分拆数: /math/combinatorics/partition
+  - 群论:
+    - 群论简介: /math/group-theory
+    - 置换群: /math/permutation-group
+  - 概率初步: /math/expectation
+  - 斐波那契数列: /math/fibonacci
+  - 博弈论:
+    - 博弈论简介: /math/game-theory/intro
+    - 公平组合游戏: /math/game-theory/impartial-game
+    - 非公平组合游戏: /math/game-theory/partizan-game
+    - 反常游戏: /math/game-theory/misere-game
+  - 牛顿迭代法: /math/newton
+  - 数值积分: /math/integral
+  - 分段打表: /math/dictionary
+  - 傅里叶-莫茨金消元法: /math/fourier-motzkin-elimination
+  - 序理论: /math/order-theory
+  - 杨氏矩阵: /math/young-tableau
+  - Schreier–Sims 算法: /math/schreier-sims
+- 数据结构:
+  - 数据结构部分简介: /ds/
+  - 栈: /ds/stack
+  - 队列: /ds/queue
+  - 链表: /ds/linked-list
+  - 哈希表: /ds/hash
+  - 并查集:
+    - 并查集: /ds/dsu
+    - 并查集复杂度: /ds/dsu-complexity
+  - 堆:
+    - 堆简介: /ds/heap
+    - 二叉堆: /ds/binary-heap
+    - 配对堆: /ds/pairing-heap
+    - 左偏树: /ds/leftist-tree
+  - 块状数据结构:
+    - 分块思想: /ds/decompose
+    - 块状数组: /ds/block-array
+    - 块状链表: /ds/block-list
+    - 树分块: /ds/tree-decompose
+    - Sqrt Tree: /ds/sqrt-tree
+  - 单调栈: /ds/monotonous-stack
+  - 单调队列: /ds/monotonous-queue
+  - ST 表: /ds/sparse-table
+  - 树状数组: /ds/fenwick
+  - 线段树: /ds/seg
+  - 李超线段树: /ds/li-chao-tree
+  - 区间最值操作 & 区间历史最值: /ds/seg-beats
+  - 划分树: /ds/dividing
+  - 二叉搜索树 & 平衡树:
+    - 二叉搜索树简介: /ds/bst
+    - Treap: /ds/treap
+    - Splay: /ds/splay
+    - WBLT: /ds/wblt
+    - Size Balanced Tree: /ds/sbt
+    - AVL 树: /ds/avl
+    - 替罪羊树: /ds/sgt
+    - 笛卡尔树: /ds/cartesian-tree
+    - 左偏红黑树: /ds/llrbt
+  - 跳表: /ds/skiplist
+  - 可持久化数据结构:
+    - 可持久化数据结构简介: /ds/persistent
+    - 可持久化线段树: /ds/persistent-seg
+    - 可持久化块状数组: /ds/persistent-block-array
+    - 可持久化平衡树: /ds/persistent-balanced
+    - 可持久化字典树: /ds/persistent-trie
+    - 可持久化可并堆: /ds/persistent-heap
+  - 树套树:
+    - 线段树套线段树: /ds/seg-in-seg
+    - 平衡树套线段树: /ds/seg-in-balanced
+    - 线段树套平衡树: /ds/balanced-in-seg
+    - 树状数组套主席树: /ds/persistent-in-bit
+    - 分块套树状数组: /ds/bit-in-block-array
+  - K-D Tree: /ds/kdt
+  - 珂朵莉树: /ds/odt
+  - 动态树:
+    - Link Cut Tree: /ds/lct
+    - Euler Tour Tree: /ds/ett
+    - Top Tree: /ds/top-tree
+  - 析合树: /ds/divide-combine
+  - PQ 树: /ds/pq-tree
+  - 手指树: /ds/finger-tree
+  - 霍夫曼树: /ds/huffman-tree
+- 图论:
+  - 图论部分简介: /graph/
+  - 图论相关概念: /graph/concept
+  - 图的存储: /graph/save
+  - DFS（图论）: /graph/dfs
+  - BFS（图论）: /graph/bfs
+  - 树上问题:
+    - 树基础: /graph/tree-basic
+    - 树的直径: /graph/tree-diameter
+    - 最近公共祖先: /graph/lca
+    - 树的重心: /graph/tree-centroid
+    - 树链剖分: /graph/hld
+    - 树上启发式合并: /graph/dsu-on-tree
+    - 虚树: /graph/virtual-tree
+    - 树分治: /graph/tree-divide
+    - 动态树分治: /graph/dynamic-tree-divide
+    - AHU算法: /graph/tree-ahu
+    - 树哈希: /graph/tree-hash
+  - 矩阵树定理: /graph/matrix-tree
+  - 有向无环图: /graph/dag
+  - 拓扑排序: /graph/topo
+  - 最小生成树: /graph/mst
+  - 斯坦纳树: /graph/steiner-tree
+  - 最小树形图: /graph/dmst
+  - 最小直径生成树: /graph/mdst
+  - 最短路: /graph/shortest-path
+  - 拆点: /graph/node
+  - 差分约束: /graph/diff-constraints
+  - k 短路: /graph/kth-path
+  - 同余最短路: /graph/mod-shortest-path
+  - 连通性相关:
+    - 强连通分量: /graph/scc
+    - 双连通分量: /graph/bcc
+    - 割点和桥: /graph/cut
+    - 圆方树: /graph/block-forest
+  - 2-SAT: /graph/2-sat
+  - 欧拉图: /graph/euler
+  - 哈密顿图: /graph/hamilton
+  - 二分图: /graph/bi-graph
+  - 最小环: /graph/min-circle
+  - 平面图: /graph/planar
+  - 图的着色: /graph/color
+  - 网络流:
+    - 网络流简介: /graph/flow
+    - 最大流: /graph/flow/max-flow
+    - 最小割: /graph/flow/min-cut
+    - 费用流: /graph/flow/min-cost
+    - 上下界网络流: /graph/flow/bound
+  - Stoer-Wagner 算法: /graph/stoer-wagner
+  - 图的匹配:
+    - 图匹配: /graph/graph-matching/graph-match
+    - 增广路: /graph/graph-matching/augment
+    - 二分图最大匹配: /graph/graph-matching/bigraph-match
+    - 二分图最大权匹配: /graph/graph-matching/bigraph-weight-match
+    - 一般图最大匹配: /graph/graph-matching/general-match
+    - 一般图最大权匹配: /graph/graph-matching/general-weight-match
+  - Prufer 序列: /graph/prufer
+  - LGV 引理: /graph/lgv
+  - 弦图: /graph/chord
+- 计算几何:
+  - 计算几何部分简介: /geometry/
+  - 二维计算几何基础: /geometry/2d
+  - 三维计算几何基础: /geometry/3d
+  - 极坐标系: /geometry/polar-coordinate
+  - 距离: /geometry/distance
+  - Pick 定理: /geometry/pick
+  - 三角剖分: /geometry/triangulation
+  - 凸包: /geometry/convex-hull
+  - 扫描线: /geometry/scanning
+  - 旋转卡壳: /geometry/rotating-calipers
+  - 半平面交: /geometry/half-plane
+  - 平面最近点对: /geometry/nearest-points
+  - 随机增量法: /geometry/random-incremental
+  - 反演变换: /geometry/inverse
+  - 计算几何杂项: /geometry/misc
+- 杂项:
+  - 杂项简介: /misc/
+  - 离散化: /misc/discrete
+  - 双指针: /misc/two-pointer
+  - 离线算法:
+    - 离线算法简介: /misc/offline
+    - CDQ 分治: /misc/cdq-divide
+    - 整体二分: /misc/parallel-binsearch
+    - 莫队算法:
+      - 莫队算法简介: /misc/mo-algo-intro
+      - 普通莫队算法: /misc/mo-algo
+      - 带修改莫队: /misc/modifiable-mo-algo
+      - 树上莫队: /misc/mo-algo-on-tree
+      - 回滚莫队: /misc/rollback-mo-algo
+      - 莫队配合bitset: /misc/mo-algo-with-bitset
+  - 分数规划: /misc/frac-programming
+  - 随机化:
+    - 随机函数: /misc/random
+    - 随机化技巧: /misc/rand-technique
+    - 爬山算法: /misc/hill-climbing
+    - 模拟退火: /misc/simulated-annealing
+  - 悬线法: /misc/hoverline
+  - 计算理论基础: /misc/cc-basic
+  - 字节顺序: /misc/endianness
+  - 约瑟夫问题: /misc/josephus
+  - 格雷码: /misc/gray-code
+  - 表达式求值: /misc/expression
+  - 在一台机器上规划任务: /misc/job-order
+  - 主元素问题: /misc/main-element
+  - Garsia-Wachs 算法: /misc/garsia-wachs
+  - 15-puzzle: /misc/15-puzzle
+  - Kahan 求和: /misc/kahan-summation
+- 专题:
+  - RMQ: /topic/rmq
+  - 并查集应用: /topic/dsu-app
+  - 括号序列: /topic/bracket
+- 关于 Hulu:
+  - 关于 Hulu: /intro/hulu
